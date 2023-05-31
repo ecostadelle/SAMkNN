@@ -7,6 +7,8 @@
 #include <limits>
 #include <map>
 
+#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+
 #define MOD_DEF(ob, name, doc, methods) \
 	  static struct PyModuleDef moduledef = { \
 		PyModuleDef_HEAD_INIT, name, doc, -1, methods, }; \
