@@ -1,0 +1,9 @@
+SAMKNN.getDistanceWeightedLabel
+SAMKNN.getMajLabel
+SAMKNN.getDistances
+
+libNearestNeighbor.get1ToNDistances(sample, samples)
+libNearestNeighbor.nArgMin(self.n_neighbors, distancesSTM)
+libNearestNeighbor.mostCommon(labels[nnIndices])
+libNearestNeighbor.getLinearWeightedLabels(labels[nnIndices], distances[nnIndices])
+
